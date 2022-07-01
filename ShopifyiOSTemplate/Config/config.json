@@ -1,0 +1,45 @@
+{
+    "home": [
+        {
+            "cell_type": "search"
+        },
+        {
+            "cell_type": "categories"
+        },
+        {
+            "cell_type": "multi_banner",
+            "banners": [
+                {
+                    "title": "Great Offers",
+                    "collection_id": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI2NDg0MjY0MTU0OA==",
+                    "local_image_name": "supersale"
+                },
+                {
+                    "title": "Top Rated",
+                    "collection_id": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI2NDg0MjY0MTU0OA==",
+                    "image_url": "https://png.pngtree.com/thumb_back/fh260/back_pic/02/50/63/71577e1cf59d802.jpg"
+                },
+                {
+                    "title": "New Arrival",
+                    "collection_id": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI2NDg0MjY0MTU0OA==",
+                    "image_url": "https://i.pinimg.com/originals/0b/a3/d6/0ba3d60362c7e6d256cfc1f37156bad9.jpg"
+                }
+            ]
+        },
+        {
+            "cell_type": "single_banner",
+            "banner": {
+                "title": "Feature Products",
+                "collection_id": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI2NDg0MjY3NDMxNg==",
+                "local_image_name": "bigsale"
+            }
+        },
+        {
+            "cell_type": "horizontal_products",
+            "horizontal_products_config": {
+                "title": "Top Brands",
+                "collection_id": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI2NDg0MjY0MTU0OA=="
+            }
+        }
+    ]
+}

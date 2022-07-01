@@ -1,0 +1,32 @@
+PODS:
+  - FSPagerView (0.8.3)
+  - IQKeyboardManagerSwift (6.5.7)
+  - Mobile-Buy-SDK (6.2.0)
+  - SideMenuSwift (2.0.9)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - FSPagerView (= 0.8.3)
+  - IQKeyboardManagerSwift (= 6.5.7)
+  - Mobile-Buy-SDK (= 6.2.0)
+  - SideMenuSwift (= 2.0.9)
+  - SVProgressHUD (= 2.2.5)
+
+SPEC REPOS:
+  trunk:
+    - FSPagerView
+    - IQKeyboardManagerSwift
+    - Mobile-Buy-SDK
+    - SideMenuSwift
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  FSPagerView: 670405b2f18e2a87fa37f20b00de783e562c25a8
+  IQKeyboardManagerSwift: c742184c72b0b3bbb902cc6cdcf4ecda91d3b3e0
+  Mobile-Buy-SDK: 8d5f87c1ef0e52a6839590938450a0aa91fdffbf
+  SideMenuSwift: 39f1922e225da4aaa8b16591037a929defe960c9
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 93b40d6d0c39abfbe2c67f23da0385417e52f248
+
+COCOAPODS: 1.11.2

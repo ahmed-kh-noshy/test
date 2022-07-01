@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19206" systemVersion="20G95" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Cart" representedClassName="Cart" syncable="YES" codeGenerationType="class">
+        <attribute name="availableQuantity" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="compareAtPrice" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <attribute name="productID" optional="YES" attributeType="String"/>
+        <attribute name="productImageUrls" optional="YES" attributeType="Transformable" customClassName="[String]"/>
+        <attribute name="productPrice" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <attribute name="productTitle" optional="YES" attributeType="String"/>
+        <attribute name="productVariantID" optional="YES" attributeType="String"/>
+        <attribute name="productVariantTitle" optional="YES" attributeType="String"/>
+        <attribute name="selectedQuantity" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="WishList" representedClassName="Cart" syncable="YES">
+        <attribute name="productID" optional="YES" attributeType="String"/>
+        <attribute name="productImageUrls" optional="YES" attributeType="Transformable" customClassName="[String]"/>
+        <attribute name="productPrice" optional="YES" attributeType="String"/>
+        <attribute name="productTitle" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Cart" positionX="-63" positionY="-18" width="128" height="164"/>
+        <element name="WishList" positionX="-63" positionY="36" width="128" height="89"/>
+    </elements>
+</model>

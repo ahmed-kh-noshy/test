@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ProductVariantCollectionViewCell" customModule="ShopifyiOSTemplate" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="222" height="72"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="222" height="72"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6bK-OA-xZS">
+                        <rect key="frame" x="0.0" y="0.0" width="222" height="72"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wAM-56-piI">
+                                <rect key="frame" x="5" y="0.0" width="212" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="wAM-56-piI" firstAttribute="top" secondItem="6bK-OA-xZS" secondAttribute="top" id="KPj-yn-uQb"/>
+                            <constraint firstItem="wAM-56-piI" firstAttribute="leading" secondItem="6bK-OA-xZS" secondAttribute="leading" constant="5" id="eDf-w2-hTJ"/>
+                            <constraint firstAttribute="bottom" secondItem="wAM-56-piI" secondAttribute="bottom" id="maO-tJ-J0m"/>
+                            <constraint firstAttribute="trailing" secondItem="wAM-56-piI" secondAttribute="trailing" constant="5" id="xV8-Z6-jTk"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="6bK-OA-xZS" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="1ZZ-O9-q1i"/>
+                <constraint firstAttribute="bottom" secondItem="6bK-OA-xZS" secondAttribute="bottom" id="9Kc-7T-Bbr"/>
+                <constraint firstAttribute="trailing" secondItem="6bK-OA-xZS" secondAttribute="trailing" id="abd-QT-KIg"/>
+                <constraint firstItem="6bK-OA-xZS" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="uPl-9p-uxU"/>
+            </constraints>
+            <size key="customSize" width="222" height="72"/>
+            <connections>
+                <outlet property="containerView" destination="6bK-OA-xZS" id="tDQ-5T-iBd"/>
+                <outlet property="optionName" destination="wAM-56-piI" id="JgY-dH-eEt"/>
+            </connections>
+            <point key="canvasLocation" x="262.31884057971018" y="107.14285714285714"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
